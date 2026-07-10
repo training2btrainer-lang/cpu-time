@@ -29,6 +29,7 @@ bashstreamlit run app.py
 สร้าง systemd Service
 - sudo nano /etc/systemd/system/streamlit.service
 ใส่
+
 [Unit]
 Description=Streamlit Dashboard
 After=network.target
