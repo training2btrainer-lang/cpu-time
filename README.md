@@ -1,5 +1,8 @@
 วิธีติดตั้ง
 
+sudo apt update
+sudo apt install python3-pip
+
 # 1. สร้าง virtual environment (แนะนำ)
 python3 -m venv venv
 source venv/bin/activate        # Windows: venv\Scripts\activate
