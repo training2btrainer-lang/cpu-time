@@ -63,6 +63,9 @@ sudo systemctl daemon-reload
 Enable
 sudo systemctl enable streamlit
 
+Start
+sudo systemctl start streamlit
+
 เปิด Firewall
 sudo ufw allow 8501/tcp
 
